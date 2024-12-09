@@ -1,11 +1,18 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 """
+Created on 12 07 24
+
+@author: Sukhrob Muborakshoev
+
 This module contains utility function for basic mathematical operations.
 
 Currently, it includes:
 - `mystery_1`: A function to calculate the sum of two non-negative integers.
 """
 
-def mystery_1(a,b):
+def mystery_1(a: int, b: int) -> int:
     """Returns the sum of two numbers.
 
     Parameters:
