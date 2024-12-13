@@ -1,9 +1,15 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 """
+Created on 12 12 24
+@author: Sukhrob Muborakshoev
+
 This module contains utility function, for generating sequential list up to a specified number.
 
 - `mystery_4(a)`: Returns a list starting from 0 up to provided integer as an input.
 """
-def mystery_4(a):
+def mystery_4(a: int) -> list:
     """
     Returns a list of integers starting from 0 up to a specified length.
 

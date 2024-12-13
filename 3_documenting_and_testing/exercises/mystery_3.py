@@ -4,7 +4,7 @@ This module contains utility function, that compares two numbers and handles equ
 - `mystery_3(a,b)`: Compares two numbers and returns the smaller number. If the numbers are equal, it returns their sum.
 """
 
-def mystery_3(a, b):
+def mystery_3(a: int, b: int) -> int :
     """Compares two numbers and returns the smaller number, or sums them if equal.
 
     Parameters:
